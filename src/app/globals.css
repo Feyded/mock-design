@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  @apply bg-gray-200 text-foreground;
+}
+
+/* Custom scrollbar styles */
+.scrollbar-custom {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #cccccc transparent; /* Thumb color and track color */
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  width: 8px; /* Width for vertical scrollbar */
+  height: 8px; /* Height for horizontal scrollbar */
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: transparent; /* Background of the track */
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: #cccccc; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded edges */
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: #aaaaaa; /* Thumb color on hover */
+}
+
+/* Hide scrollbar initially */
+.scrollbar-custom {
+  overflow-x: hidden; /* Hide overflow */
+}
+
+/* Show scrollbar on hover */
+.scrollbar-custom:hover {
+  overflow-x: auto; /* Show scrollbar when hovered */
+}
+
+

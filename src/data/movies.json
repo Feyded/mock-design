@@ -1,0 +1,169 @@
+[
+  {
+    "id": 1,
+    "studio": "Bones",
+    "genres": ["Mystery", "Seinen", "Supernatural"],
+    "hype": 31993,
+    "description": "Nakajima Atsushi was kicked out of his orphanage, and now he has no place to go and no food. While he is standing by a river, on the brink of starvation, he rescues a man whimsically attempting suicide. That man is Dazai Osamu, and he and his partner Kunikida are members of a very special detective agency. They have supernatural powers and deal with cases that are too dangerous for the police or the military. They're tracking down a tiger that has appeared in the area recently, around the time Atsushi came to the area. The tiger seems to have a connection to Atsushi, and by the time the case is solved, it is clear that Atsushi's future will involve much more of Dazai and the rest of the detectives! (Source: MangaHelpers) Episode 1 will be previewed at an event at Marunouchi Piccadilly on March 27, 2016. Episodes 1 and 2 will be previewed at Yokohama Burg 13 on April 2, 2016. Regular broadcasting will begin on April 7, 2016.",
+    "title": {
+      "link": "https://wallpapers.com/images/high/bungou-stray-dogs-lbxhy8xcvyrcgsmm.webp",
+      "text": "Bungou Stray Dogs"
+    },
+    "start_date": "Apr 7, 2016, 01:05 (JST)",
+    "rating": "5.0",
+    
+    "isLiked": false,
+    "isThrowback": false
+  },
+  {
+    "id": 2,
+    "studio": "Bones",
+    "genres": ["Action", "Comedy", "School", "Shounen", "Super Power"],
+    "hype": 29462,
+    "description": "What's a hero? For Izuku Midoriya, the answer to that question has always been simple: \"Everything I want to be!\" And who is the ultimate hero? Well, the legendary All Might, of course. All Might is the number one ranked hero and also the \"Symbol of Peace\" in the world. Not in his wildest dreams could Izuku have imagined that he would soon cross paths with his childhood hero... In Boku no Hero Academia, status is governed by \"Quirks\"—unique superpowers which develop in childhood. But, unfortunately, hero otaku Midoriya \"Deku\" Izuku never had a Quirk. That is, until he met All Might, the greatest hero of all time. Izuku's transformation from dreamer to superhero begins at Yuuei Academy, the top-ranked hero-training high school in Japan. Izuku is on cloud nine when he's accepted to this prestigious academy, especially when he finds out that All Might is one of the teachers. What surprises does this mighty academy offer? And will Izuku be able to keep up with his elite classmates?",
+    "title": {
+      "link": "https://wallpapers.com/images/hd/bnha-characters-as-gangsters-fanart-mqg6cvz4ve6skgcm.webp",
+      "text": "Boku no Hero Academia"
+    },
+    "start_date": "Apr 3, 2016, 17:00 (JST)",
+    "rating": "4.0",
+    "isLiked": false,
+    "isThrowback": false
+  },
+
+  {
+    "id": 3,
+    "studio": "MAPPA",
+    "genres": ["Action", "Supernatural", "Dark Fantasy"],
+    "hype": 5000,
+    "description": "Jujutsu Kaisen follows Yuji Itadori, a high school student who joins a secret organization to fight against curses after consuming a cursed object.",
+    "title": {
+      "link": "https://wallpapers.com/images/high/anime-all-characters-hd-3014-x-1912-y0v47o5bqvxlw2gm.webp",
+      "text": "Jujutsu Kaisen"
+    },
+    "start_date": "Oct 3, 2020",
+    "rating": "5.0",
+    "isLiked": false,
+    "isThrowback": false
+  },
+  {
+    "id": 4,
+    "studio": "Toei Animation",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "hype": 8000,
+    "description": "One Piece follows Monkey D. Luffy and his pirate crew as they search for the ultimate treasure known as the One Piece.",
+    "title": {
+      "link": "https://wallpapers.com/images/hd/one-piece-luffy-holding-hat-nazsl5hmss8bfb9n.webp",
+      "text": "One Piece"
+    },
+    "start_date": "Oct 20, 1999",
+    "rating": "4.0",
+    "isLiked": false,
+    "isThrowback": false
+  },
+  {
+    "id": 5,
+    "studio": "Toei Animation",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "hype": 7500,
+    "description": "Dragon Ball follows the adventures of Goku from his childhood through adulthood as he trains in martial arts and explores the world in search of the Dragon Balls.",
+    "title": {
+      "link": "https://wallpapers.com/images/high/goku-dragon-ball-super-0y01jsbqwgb0vtpr.webp",
+      "text": "Dragon Ball"
+    },
+    "start_date": "Feb 26, 1986",
+    "rating": "5.0",
+    "isLiked": false,
+    "isThrowback": false
+  },
+  {
+    "id": 6,
+    "studio": "Pierrot",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "hype": 7000,
+    "description": "Naruto follows the journey of Naruto Uzumaki, a young ninja with a sealed demon fox spirit within him, as he seeks recognition and dreams of becoming Hokage.",
+    "title": {
+      "link": "https://wallpapers.com/images/high/naruto-s-friend-3840-x-2400-wallpaper-7f5on0ysj2242qtk.webp",
+      "text": "Naruto"
+    },
+    "start_date": "Oct 3, 2002",
+    "rating": "5.0",
+    "isLiked": false,
+    "isThrowback": false
+  },
+  {
+    "id": 7,
+    "studio": "Madhouse",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "hype": 7200,
+    "description": "Hunter x Hunter follows Gon Freecss, a young boy who discovers that his long-lost father is a legendary Hunter. He sets off on a journey to become a Hunter himself and find his father.",
+    "title": {
+      "link": "https://wallpapers.com/images/high/hunter-x-hunter-logo-b83ltk53000scenn.webp",
+      "text": "Hunter x Hunter"
+    },
+    "start_date": "Oct 2, 2011",
+    "rating": "4.0",
+    "isLiked": false,
+    "isThrowback": false
+  },
+  {
+    "id": 8,
+    "studio": "Ufotable",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "hype": 8500,
+    "description": "Kimetso no Yaiba follows Tanjiro Kamado, a young boy who becomes a demon slayer after his family is slaughtered by demons, and his sister Nezuko is turned into one. He seeks to avenge his family and find a cure for his sister.",
+    "title": {
+      "link": "/background.png",
+      "text": "Kimetso no Yaiba"
+    },
+    "start_date": "Apr 6, 2019",
+    "rating": "4.5",
+    "isLiked": false,
+    "isThrowback": false
+  },
+  {
+    "id": 9,
+    "studio": "Toei Animation",
+    "genres": ["Sports", "Drama", "Comedy"],
+    "hype": 15000,
+    "description": "Slam Dunk follows Hanamichi Sakuragi, a high school delinquent who joins the basketball team to impress a girl. Despite having no prior experience, he quickly learns the importance of teamwork, discipline, and the love of the game as he strives to make a name for himself on the court.",
+    "title": {
+      "link": "https://wallpapers.com/images/high/slam-dunk-background-i9stpt6pvysov6xm.webp",
+      "text": "Slam Dunk"
+    },
+    "start_date": "Apr 16, 1993",
+    "rating": "4.5",
+    "isLiked": false,
+    "isThrowback": true
+  },
+  {
+    "id": 10,
+    "studio": "Toei Animation",
+    "genres": ["Action", "Fantasy", "Adventure"],
+    "hype": 22000,
+    "description": "Ghost Fighter, also known as Yu Yu Hakusho, follows Yusuke Urameshi, a teenage delinquent who unexpectedly dies while saving a child. Given a second chance at life, he becomes a Spirit Detective tasked with investigating supernatural phenomena and battling evil spirits.",
+    "title": {
+      "link": "https://wallpapers.com/images/high/yu-yu-hakusho-ghost-files-ghost-fighter-r2pq6az0u9b01lmf.webp",
+      "text": "Ghost Fighter"
+    },
+    "start_date": "Oct 10, 1992",
+    "rating": "4.7",
+    "isLiked": false,
+    "isThrowback": true
+  },
+  {
+    "id": 11,
+    "studio": "Toei Animation",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "hype": 18000,
+    "description": "Yu-Gi-Oh! follows Yugi Muto, a boy who solves an ancient Egyptian puzzle and awakens a spirit within him. This spirit grants him the skills to play a card game called Duel Monsters, where he battles opponents and uncovers the mysteries of his past.",
+    "title": {
+      "link": "https://wallpapers.com/images/high/yugioh-1920-x-1080-background-ujmh8ikn3d9dmsyl.webp",
+      "text": "Yu-Gi-Oh!"
+    },
+    "start_date": "Apr 18, 2000",
+    "rating": "4.3",
+    "isLiked": false,
+    "isThrowback": true
+  }
+]
