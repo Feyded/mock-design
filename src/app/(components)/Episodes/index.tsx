@@ -29,7 +29,7 @@ const Episodes = (props: EpisodeProps) => {
           <div className="-z-5 absolute inset-0 rounded-3xl bg-gradient-to-b from-transparent to-black" />
           <div className="flex h-full w-full flex-col justify-end pb-5">
             {/* CARD TITLE */}
-            <h3 className="relative sm:text-2xl font-semibold text-white">
+            <h3 className="relative font-semibold text-white sm:text-2xl">
               {props.selectedMovie.title.text}
             </h3>
             {/* CARD CATEGORY & RATINGS */}
