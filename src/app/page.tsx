@@ -48,7 +48,7 @@ const Home = () => {
     <div>
       {/* MAIN MOVIE SECTION */}
       <div
-        className={`relative flex min-h-screen flex-col justify-center bg-cover bg-center px-10 transition-all duration-700 sm:px-20`}
+        className={`relative flex min-h-screen flex-col justify-center bg-cover bg-center px-10 sm:px-20 transition-all duration-700`}
         style={{ backgroundImage: `url(${selectedMovie.title.link})` }}
       >
         <div className="-z-index-10 absolute inset-0 bg-gradient-to-r from-black via-transparent to-black"></div>
@@ -60,7 +60,7 @@ const Home = () => {
             className="flex flex-col"
           >
             {/* TITLE */}
-            <h1 className="relative text-5xl font-bold text-white md:text-7xl">
+            <h1 className="relative text-5xl md:text-7xl font-bold text-white">
               {selectedMovie.title.text}
             </h1>
             <div className="mt-2.5 flex items-center gap-5">
@@ -74,12 +74,12 @@ const Home = () => {
               </p>
             </div>
             {/* DESCRIPTION */}
-            <p className="relative mt-4 line-clamp-5 text-base leading-5">
+            <p className="relative mt-4 text-base leading-5 line-clamp-5">
               {selectedMovie.description}
             </p>
             {/* ACTIONS */}
-            <div className="relative mt-2.5 gap-4 sm:flex">
-              <button className="group mb-2 flex items-center justify-center gap-1 rounded bg-loginButton px-2.5 py-2 hover:bg-white hover:text-black sm:mb-0">
+            <div className="relative mt-2.5 sm:flex gap-4">
+              <button className="group flex items-center mb-2 sm:mb-0 justify-center gap-1 rounded bg-loginButton px-2.5 py-2 hover:bg-white hover:text-black">
                 <Play
                   className="group-hover:animate-bounceX"
                   fill={`white`}
@@ -109,7 +109,7 @@ const Home = () => {
         <motion.div
           initial={{ x: -20, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          className="absolute inset-x-10 bottom-16 mx-auto flex text-sm text-white sm:inset-x-20"
+          className="absolute inset-x-10 sm:inset-x-20 bottom-16 mx-auto flex text-sm text-white"
         >
           <div className="flex gap-7">
             <HoverLink
@@ -140,7 +140,7 @@ const Home = () => {
       {/* RENDERED BY BOTTOM LINKS */}
       <div className="bg-darkBackground pb-10 pt-14">
         {/* TITLE */}
-        <h2 className="mb-7 px-10 text-4xl font-bold text-white sm:pl-20">
+        <h2 className="mb-7 px-10 sm:pl-20 text-4xl font-bold text-white">
           Trending <span className="text-span">this week</span>
         </h2>
         <AnimatePresence>

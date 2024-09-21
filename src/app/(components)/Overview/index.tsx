@@ -26,7 +26,7 @@ const index = ({
               exit={{ x: -10, opacity: 0 }}
               whileHover={{ translateY: -5 }}
               key={movie.id}
-              className={`relative h-[291px] min-w-[516px] transform cursor-pointer rounded-3xl bg-cover bg-center px-8 shadow transition-transform duration-300 ease-out hover:shadow-white`}
+              className={`relative h-[291px] min-w-[300px] transform cursor-pointer rounded-3xl bg-cover bg-center px-8 shadow transition-transform duration-300 ease-out hover:shadow-white md:min-w-[400px] xl:min-w-[516px]`}
               style={{
                 backgroundImage: `url(${movie.title.link})`,
               }}
@@ -38,14 +38,14 @@ const index = ({
               <div className="-z-5 absolute inset-0 rounded-3xl bg-gradient-to-b from-transparent to-black" />
               <div className="flex h-full w-full flex-col justify-end pb-5">
                 {/* CARD TITLE */}
-                <h3 className="relative text-2xl font-semibold text-white">
+                <h3 className="relative font-semibold text-white md:text-2xl">
                   {movie.title.text}
                 </h3>
                 {/* CARD CATEGORY & RATINGS */}
                 <div className="relative flex items-center justify-between">
-                  <p className="text-smallCardLabel relative text-xs">
+                  <p className="relative text-xs text-smallCardLabel">
                     Category:
-                    {movie.genres.map((genre: string) => genre + ", ")}
+                    {movie.genres.map((genre: string) => " " + genre + ", ")}
                   </p>
                   <div className="relative flex items-center gap-1 text-xs font-semibold text-white">
                     <Star fill="yellow" className="text-yellow-200" size={20} />
@@ -57,7 +57,7 @@ const index = ({
           ))}
         </div>
       </div>
-      <div className="mt-14 px-10 sm:px-20 pb-14">
+      <div className="mt-14 px-10 pb-14 sm:px-20">
         <div>
           <h2 className="text-4xl font-bold text-white">Throwback Anime!</h2>
           <div className="mt-9 grid gap-4 lg:grid-cols-2 xl:grid-cols-3">
@@ -69,7 +69,7 @@ const index = ({
                   setSelectedBottomLink("Episodes");
                 }}
                 key={movie.id}
-                className="h-[20vh] sm:h-[42.7vh] cursor-pointer rounded-3xl border-2 bg-cover bg-center transition-transform duration-300 hover:-translate-y-3"
+                className="h-[20vh] cursor-pointer rounded-3xl border-2 bg-cover bg-center transition-transform duration-300 hover:-translate-y-3 sm:h-[42.7vh]"
                 style={{
                   backgroundImage: `url(${movie.title.link})`,
                 }}

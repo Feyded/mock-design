@@ -13,5 +13,5 @@ To get the project up and running, follow these simple steps:
 
 If all assets do not load, simply refresh the page.
 
-Thank you for the opportunity
+Thank you for the opportunity!
 

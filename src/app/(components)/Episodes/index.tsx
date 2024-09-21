@@ -1,7 +1,7 @@
 import { MovieTypes } from "@/lib/types";
 import React from "react";
 import { Star } from "lucide-react";
-import * as motion from "framer-motion/client"
+import * as motion from "framer-motion/client";
 
 type EpisodeProps = {
   selectedMovie: MovieTypes;
@@ -13,7 +13,7 @@ const Episodes = (props: EpisodeProps) => {
       initial={{ x: 100, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       exit={{ x: -100, opacity: 0 }} //
-      className="gap-4 px-10 sm:px-20 text-white xl:flex"
+      className="gap-4 px-10 text-white sm:px-20 xl:flex"
     >
       {/* LEFT SIDE */}
       <div className="flex flex-col gap-4 xl:max-w-[516px]">
@@ -21,7 +21,7 @@ const Episodes = (props: EpisodeProps) => {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          className={`relative h-[300px] sm:h-[621px] rounded-3xl bg-cover bg-center px-8`}
+          className={`relative h-[300px] rounded-3xl bg-cover bg-center px-8 sm:h-[621px]`}
           style={{
             backgroundImage: `url(${props.selectedMovie.title.link})`,
           }}
@@ -29,7 +29,7 @@ const Episodes = (props: EpisodeProps) => {
           <div className="-z-5 absolute inset-0 rounded-3xl bg-gradient-to-b from-transparent to-black" />
           <div className="flex h-full w-full flex-col justify-end pb-5">
             {/* CARD TITLE */}
-            <h3 className="relative text-2xl font-semibold text-white">
+            <h3 className="relative sm:text-2xl font-semibold text-white">
               {props.selectedMovie.title.text}
             </h3>
             {/* CARD CATEGORY & RATINGS */}
@@ -67,7 +67,10 @@ const Episodes = (props: EpisodeProps) => {
         <div className="mt-6 grid gap-12">
           {/* CARDS */}
           {[1, 2].map((episode) => (
-            <div key={episode} className="grid items-center gap-4 md:grid-cols-2">
+            <div
+              key={episode}
+              className="grid items-center gap-4 md:grid-cols-2"
+            >
               <div
                 className="h-[236px] transform cursor-pointer rounded-[20px] bg-cover bg-center shadow transition-transform duration-300 ease-out hover:-translate-y-3 hover:shadow-white"
                 style={{
