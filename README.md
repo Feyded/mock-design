@@ -1,6 +1,6 @@
 # Welcome!
 
-Hello! My name is **Dean Zallero**, and this is my technical hands-on exam.
+Hello! My name is **Dean Zallero**, and this is my mock design from figma.
 
 ## Getting Started
 
