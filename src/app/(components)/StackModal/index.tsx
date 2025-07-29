@@ -1,18 +1,10 @@
-"use client";
 import { motion } from "framer-motion";
-import { useState } from "react";
 
 type StackModalProps = {
   onClose: () => void;
 };
 
 const StackModal = ({ onClose }: StackModalProps) => {
-  const [open, setOpen] = useState(true);
-
-  const setClose = () => {
-    onClose();
-    setOpen(false);
-  };
 
   return (
     <motion.div
@@ -30,7 +22,7 @@ const StackModal = ({ onClose }: StackModalProps) => {
         </ul>
         <button
           className="mt-6 rounded-full bg-[#0f172b] px-4 py-2 text-white transition hover:bg-[#314158]"
-          onClick={setClose}
+          onClick={onClose}
         >
           Got it, show me the project
         </button>
